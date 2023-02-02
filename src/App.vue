@@ -1,5 +1,6 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
+import AppHero from './components/AppHero.vue';
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <HelloWorld msg="Hello World con Vite" />
+  <AppHero/>
 </template>
 
 <style scoped>
